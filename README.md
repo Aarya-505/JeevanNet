@@ -73,13 +73,14 @@ conda env create -f jeevannet_env.yml
 
 # 3. Activate the virtual environment
 conda activate JeevanNet
+```
 ---
 ### Running the Live Prototype
 To initialize local webcam capture and test the pre-trained neural networks:
 
 ```bash
 python main.py
-
+```
 Press q to safely close the active window and clean up processing threads.
 ---
 
