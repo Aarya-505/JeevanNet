@@ -39,11 +39,11 @@ Most modern psychological interventions rely on **active self-reporting** (apps,
 
 ---
 
-## 👁️ The Vision: A Silent AI Guardian
+## The Vision: A Silent AI Guardian
 
 JeevanNet introduces a paradigm shift from **reactive counseling** to **proactive early intervention**:
 
-### ⚙️ How JeevanNet Works
+### How JeevanNet Works
 1. **Passive Detection:** Works autonomously in public campus areas using existing CCTV cameras, minimizing setup costs and maximizing coverage.
 2. **Privacy by Design:** Local edge computing (optimized for NVIDIA Jetson Nano hardware) ensures **zero raw video is saved or transmitted**. Video feeds are instantly discarded after local feature extraction, keeping data entirely anonymous.
 3. **Selective Emotion Weights:** The system deliberately ignores common positive emotions (joy, surprise, excitement) to minimize compute overhead and prevent overfitting. It isolates specific withdrawal behaviors:
