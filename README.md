@@ -12,7 +12,7 @@ JeevanNet is a non-intrusive, privacy-first edge computing system integrated wit
 
 ---
 
-## 👥 Contributors (Project Team)
+## Contributors (Project Team)
 
 * **Pratik Tekale**
 * **Arya Mohanrao Mandke**
@@ -23,11 +23,11 @@ JeevanNet is a non-intrusive, privacy-first edge computing system integrated wit
 
 ---
 
-## 📌 The Problem: A Crisis We Don't See
+## The Problem: A Crisis We Don't See
 
 Most modern psychological interventions rely on **active self-reporting** (apps, quizzes, counselor visits). JeevanNet operates where students don't—or can't—vocalize their pain.
 
-### 📊 Vital Statistics & Regional Insights
+### Vital Statistics & Regional Insights
 
 | Metric / Insight | Detail / Impact | Source |
 | :--- | :--- | :--- |
@@ -55,7 +55,7 @@ JeevanNet introduces a paradigm shift from **reactive counseling** to **proactiv
 > To avoid false alerts caused by normal daily mood swings (e.g., getting a bad grade, a temporary disagreement, or a stressful exam morning), **JeevanNet does not trigger immediate alarms**. Alerts are only routed to trained mental health staff on the **Silent Alert Dashboard** if indicators of emotional distress remain consistently elevated over a continuous **72-hour window**.
 
 ---
-## 🚀 Technical Implementation
+## Technical Implementation
 
 ### System Prerequisites
 The prototype has been validated on **Windows** and **Linux (Ubuntu)** environments utilizing **Python 3.9**.
@@ -73,9 +73,7 @@ conda env create -f jeevannet_env.yml
 
 # 3. Activate the virtual environment
 conda activate JeevanNet
-
 ---
-
 ### Running the Live Prototype
 To initialize local webcam capture and test the pre-trained neural networks:
 
@@ -83,7 +81,6 @@ To initialize local webcam capture and test the pre-trained neural networks:
 python main.py
 
 Press q to safely close the active window and clean up processing threads.
-
 ---
 
 ### License
